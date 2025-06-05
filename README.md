@@ -108,35 +108,35 @@ A folder named rototed will be created, along with '_.dat'and '-centroid.txt' fi
 A window will pop-up with an image prompting you to select two points on the image. You can use the zoom icon indicated in the below image using a blue arrow to zoom in on a single fibre in order to acurately select a point, then you will left-click the left facing arrow to go back to the full image and zoom in again on the next fibre and select the next point.
 Right click the centre of the first fibre in the middle row, then right click the centre of the last fibre on the middle row of the fibre bundle. The image will close by itself after you select the required number of points.
 
-![Alt text](\Images/Screenshot(15)1.png)
-![Alt text](\Images/Screenshot(11).png)
+![Alt text](Images/Screenshot(15)1.png)
+![Alt text](Images/Screenshot(11).png)
 
 The coordinates of the two points that you right-clicked on will be printed out in the terminal. These two points will be used in the code to rotate/align the image such that the the fibre bundle is not tilted.
 
 ### Step 2: Y-Axis Calibration
-![Alt text](\Images/Screenshot(15)2.png)
+![Alt text](Images/Screenshot(15)2.png)
 
 Now a second pop-up with the rotated fibre bundle will appear. You will also zoom on the target fibres as explained previously. You have to right click the first fiber on the last row of the fiber bundle (or right click the centre of one of the fibres on the last row of the fibre bundle that will be colinear with the centre of the first fibre on the first row.), then you right click the centre of the first fibre on the first row. The image will close by itself after you select the required number of points.
 
-![Alt text](\Images/Screenshot(15)3.png)
-![Alt text](\Images/Screenshot(12).png)
+![Alt text](Images/Screenshot(15)3.png)
+![Alt text](Images/Screenshot(12).png)
 
 The coordinates of the two points that you right-clicked on will be printed out in the terminal. Then the values of the x and y -scaling will the displayed on the terminal.
 
-![Alt text](\Images/Screenshot(15)4.png)
+![Alt text](Images/Screenshot(15)4.png)
 
 ### Step 3: Bundle Center
 Now a third pop-up with the rotated fibre bundle will show. Zoom into the middle fibre/centre point of the fibre bundle. You have to right click the centre of the middle fibre on the middle row of the fibre bundle (or simply the centre point of the entire fibre bundle if the rows and/or number of fibers in the middle row are even). Once the pont is selected the image will close.
 
-![Alt text](\Images/Screenshot(15)5.png)
-![Alt text](\Images/Screenshot(13).png)
+![Alt text](Images/Screenshot(15)5.png)
+![Alt text](Images/Screenshot(13).png)
 
 The centre coordinates of the middle fibre that you right-clicked will be printed on the terminal. 
 
 ### Step 4: Parameters
 Next, you will be required to entre the diameter of a single fibre in micronmetres, followed by the number of rows of the fibre bundle, followed by the number of fibres in the middle row of the fiber bundle, you will have to press enter after inputing each of the values to proceed to the next step.
 
-![Alt text](\Images/Screenshot(15).png)
+![Alt text](Images/Screenshot(15).png)
 
 ### 2.1 Generate Grid Algorithm
 
@@ -144,35 +144,35 @@ An algorithm that calculates the centres of each of the fibres in the fibre bund
 
 A histogram of the Number of pixels versus the light intensity will be generated for a subimg of each of the fibres and each histogram will be saved to the plots folder which is in the same folder as the main python script.  
 
-![Alt text](\plots/histogram_75.png)
+![Alt text](plots/histogram_75.png)
 
 The value of light intensity between two of the highest peaks (D_p) will be used to threshold the subimg and decide whether to fit an ellipse/octagon or not.
 
-![Alt text](\Images/screenshot.png)
+![Alt text](Images/screenshot.png)
 
 Then the graph of the generated fibre grid based on the scaling factors is shown. You have to close the image for the next one to show.
 
-![Alt text](\Images/Figure_2.png)
+![Alt text](Images/Figure_2.png)
 
 The graph of the generated fibre grid based of the center_of_mass function is shown. You have to close the image for the next one to show.
 
-![Alt text](\Images/Figure_3.png)
+![Alt text](Images/Figure_3.png)
 
 An image of the generated fibre grids based of the center_of_mass function plotted on the image of the fibres is shown.
 
-![Alt text](\Images/Figure_4.png)
+![Alt text](Images/Figure_4.png)
 
 An image of the generated fibre grids based on the scaling factors and generated fibre grids based of the center_of_mass function plotted on the image of the fibres is shown. You have to close the image for the next one to show.
 
-![Alt text](\Images/Figure_5.png)
+![Alt text](Images/Figure_5.png)
 
 An image of the centroids of the fibres plotted on the image of the fibre bundle is shown. You have to close the image for the next one to show.
 
-![Alt text](\Images/Figure_1.png)
+![Alt text](Images/Figure_1.png)
 
 Then the following image which can be optional, is the image of the fitted ellipses (change to octagons if necessary) plotted on the edges of the fibers on the fibre bundle image. This is only necessary if you are not sure that the centroids calculated/plotted for the fibres are accurate. You close the image when you done viewing it.
 
-![Alt text](\Images/Figure_6.png)
+![Alt text](Images/Figure_6.png)
 
 ### 2.2 Grading
 Once you close the image of the fitted ellipses/octagons the holes/fibres of the image will be graded accoeding to the following scheme:
@@ -188,7 +188,7 @@ Grading scale:
 | Grade 2  | 130–140 µm  | Good  |
 | Grade 3  | 140 µm  | Excellent  |
 
-![Alt text](\Images/Screenshot(14).png)
+![Alt text](Images/Screenshot(14).png)
 
 ### 2.3 Output Files
 
