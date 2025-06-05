@@ -99,7 +99,7 @@ Ellipse parameters:
 
 4.Run the script by pressing enter on your computer:
 
-![Alt text](\Images/Screenshot(16).png)
+![Alt text](Images/Screenshot(16).png)
 
 A folder named rototed will be created, along with '_.dat'and '-centroid.txt' files.
 
